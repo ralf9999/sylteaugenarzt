@@ -1,0 +1,24 @@
+{
+  "name": "sylteaugenarzt",
+  "version": "1.0.0",
+  "description": "Html Homepage zu Sylter Augenarzt",
+  "main": "index.js",
+  "scripts": {
+    "scss-dev": "sass --watch assets/scss:assets/css",
+    "sass-prod": "sass  --no-source-map --style=expanded assets/scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralf9999/sylteaugenarzt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ralf9999/sylteaugenarzt/issues"
+  },
+  "homepage": "https://github.com/ralf9999/sylteaugenarzt#readme",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
+}
